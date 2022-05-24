@@ -159,3 +159,10 @@ e_cnt = url.count("e")
 # 문자 + str(숫자) : 연결
 password = url[:3]+str(len(url))+str(e_cnt)+"!" # TypeError: can only concatenate str (not "int") to str  : 숫자를 문자로 바꿔주어서 해결
 print(password)
+
+print()
+
+print("str1[-1::-1 >",str1[-1::-1])
+print("str1[0:4:2 >",str1[0:4:2])
+print("str1[0:8:3 >",str1[0:8:3])
+print("str1[4:0:-2 >",str1[3:0:-2])
